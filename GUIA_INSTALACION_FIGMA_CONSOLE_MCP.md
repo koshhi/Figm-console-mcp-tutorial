@@ -160,6 +160,12 @@ Para revelar directamente el archivo `config.toml` en Finder:
 open -R ~/.codex/config.toml
 ```
 
+Para abrir directamente el archivo `config.toml` con la app por defecto:
+
+```bash
+open ~/.codex/config.toml
+```
+
 ### Que debes pegar
 
 Abre `~/.codex/config.toml` y añade esto:

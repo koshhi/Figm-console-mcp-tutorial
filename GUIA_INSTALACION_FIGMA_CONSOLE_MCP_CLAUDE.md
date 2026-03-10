@@ -173,6 +173,12 @@ Para revelar directamente el archivo `claude_desktop_config.json` en Finder:
 open -R ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 
+Para abrir directamente el archivo `claude_desktop_config.json` con la app por defecto:
+
+```bash
+open ~/Library/Application\ Support/Claude/claude_desktop_config.json
+```
+
 ### Que debes pegar
 
 Abre ese archivo y pega este contenido:
