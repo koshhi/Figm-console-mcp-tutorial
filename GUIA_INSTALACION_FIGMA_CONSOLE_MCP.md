@@ -92,9 +92,10 @@ Este token es la llave que permite que el servidor MCP acceda a tu cuenta de Fig
 
 1. Abre la ayuda oficial de Figma sobre tokens personales:
    [https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens)
-2. Crea un nuevo token personal
+2. Crea un nuevo token personal desde: `Home` -> `Perfil` -> `Settings` -> `Security` -> `Generate new token`
 3. Ponle un nombre facil, por ejemplo: `Figma Console MCP`
-4. Copia el token cuando Figma lo muestre
+4. Marca todas los permisos del token y establece la expiracion en 90 dias
+5. Copia el token cuando Figma lo muestre y guardalo en un lugar seguro
 
 ## 7. Configurar Codex para que use Figma Console MCP
 
@@ -123,6 +124,41 @@ En lenguaje normal, eso significa:
 ### Si el archivo no existe
 
 Puedes crearlo con un editor de texto plano.
+
+### Como abrir esa carpeta en Finder y Terminal
+
+Si prefieres llegar manualmente a la carpeta de configuracion:
+
+#### En Finder
+
+1. Pulsa `Cmd + Shift + G`
+2. Pega esta ruta:
+
+```text
+~/.codex
+```
+
+3. Pulsa Enter
+
+#### En Terminal
+
+Para entrar en la carpeta:
+
+```bash
+cd ~/.codex
+```
+
+Para abrir esa carpeta en Finder:
+
+```bash
+open ~/.codex
+```
+
+Para revelar directamente el archivo `config.toml` en Finder:
+
+```bash
+open -R ~/.codex/config.toml
+```
 
 ### Que debes pegar
 

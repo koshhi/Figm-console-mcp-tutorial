@@ -109,9 +109,10 @@ Es la clave que autoriza a Figma Console MCP a acceder a tu cuenta.
 
 1. Abre esta ayuda oficial:
    [https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens)
-2. Crea un token personal nuevo
-3. Pon un nombre facil, por ejemplo: `Figma Console MCP`
-4. Copia el token
+2. Crea un nuevo token personal desde: `Home` -> `Perfil` -> `Settings` -> `Security` -> `Generate new token`
+3. Ponle un nombre facil, por ejemplo: `Figma Console MCP`
+4. Marca todas los permisos del token y establece la expiracion en 90 dias
+5. Copia el token cuando Figma lo muestre y guardalo en un lugar seguro
 
 ## 8. Configurar Claude Desktop
 
@@ -136,6 +137,41 @@ En lenguaje normal, sera algo parecido a esto:
 ### Si el archivo no existe
 
 Crealo con un editor de texto plano.
+
+### Como abrir esa carpeta en Finder y Terminal
+
+Si prefieres abrir primero la carpeta donde vive el archivo:
+
+#### En Finder
+
+1. Pulsa `Cmd + Shift + G`
+2. Pega esta ruta:
+
+```text
+~/Library/Application Support/Claude
+```
+
+3. Pulsa Enter
+
+#### En Terminal
+
+Para entrar en la carpeta:
+
+```bash
+cd ~/Library/Application\ Support/Claude
+```
+
+Para abrir esa carpeta en Finder:
+
+```bash
+open ~/Library/Application\ Support/Claude
+```
+
+Para revelar directamente el archivo `claude_desktop_config.json` en Finder:
+
+```bash
+open -R ~/Library/Application\ Support/Claude/claude_desktop_config.json
+```
 
 ### Que debes pegar
 
