@@ -1,5 +1,8 @@
 # Guia paso a paso para instalar Figma Console MCP
 
+Navegacion:
+[README](./README.md) | [Guia para Claude](./GUIA_INSTALACION_FIGMA_CONSOLE_MCP_CLAUDE.md)
+
 Esta guia esta pensada para personas no tecnicas y para un flujo en macOS usando **Codex** como cliente MCP.
 
 ## 1. Que vas a instalar exactamente

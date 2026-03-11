@@ -1,5 +1,8 @@
 # Guia paso a paso para instalar Figma Console MCP usando Claude
 
+Navegacion:
+[README](./README.md) | [Guia para Codex](./GUIA_INSTALACION_FIGMA_CONSOLE_MCP.md)
+
 Esta guia esta pensada para personas no tecnicas y usa **Claude Desktop** como aplicacion principal.
 
 ## 1. Que vas a instalar
